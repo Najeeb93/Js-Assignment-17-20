@@ -36,8 +36,16 @@
 
 //--Question No: 4
 
-var fruits = ["apple","banana","mango","orange","strawberry"];
+// var fruits = ["apple","banana","mango","orange","strawberry"];
 
-for(i = 0; i <=4; i++){
-    document.write(fruits[i] + "<br>");
+// for(i = 0; i <=4; i++){
+//     document.write(fruits[i] + "<br>");
+// }
+
+//----Question No: 5
+
+//--A--
+
+for(i=1; i<=15; i++){
+    document.write(i +"<br>")
 }
