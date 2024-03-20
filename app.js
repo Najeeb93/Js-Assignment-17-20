@@ -52,6 +52,20 @@
 
 //--B--
 
-for(i=10; i>=1; i--){
+// for(i=10; i>=1; i--){
+//     document.write(i + "<br>")
+// }
+
+//--c--
+//--Oddd:----
+
+// for(i=1; i<50; i=i+2){
+//     document.write(i + "<br>")
+// }
+
+
+//--Even--
+
+for(i = 0; i < 50; i=i+2 ){
     document.write(i + "<br>")
 }
