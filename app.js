@@ -72,6 +72,10 @@
 
 //--Series:--
 
-for(i = 0; i <= 20; i=i+2){
-    document.write(i +"k"+"<br>")
+// for(i = 0; i <= 20; i=i+2){
+//     document.write(i +"k"+"<br>")
+// }
+
+for (var i = 1; i <= 100; i = i + 20){
+    document.write(i + "<br>")
 }
