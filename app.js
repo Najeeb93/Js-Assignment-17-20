@@ -46,6 +46,12 @@
 
 //--A--
 
-for(i=1; i<=15; i++){
-    document.write(i +"<br>")
+// for(i=1; i<=15; i++){
+//     document.write(i +"<br>")
+// }
+
+//--B--
+
+for(i=10; i>=1; i--){
+    document.write(i + "<br>")
 }
