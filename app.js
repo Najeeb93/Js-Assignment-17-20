@@ -27,9 +27,17 @@
 //     document.write(userInput+" x "+i+" ="+(userInput*i)+"<br>");
 // }
 
-var userInput = prompt("Enter a number to show its multiplication table"); 
-var userLength = prompt("Enter length multiplication table");
+// var userInput = prompt("Enter a number to show its multiplication table"); 
+// var userLength = prompt("Enter length multiplication table");
 
-for(i=1; i <= userLength; i++){
-    document.write(userInput + " x " + i + " = " + userInput*i + "<br>");
+// for(i=1; i <= userLength; i++){
+//     document.write(userInput + " x " + i + " = " + userInput*i + "<br>");
+// }
+
+//--Question No: 4
+
+var fruits = ["apple","banana","mango","orange","strawberry"];
+
+for(i = 0; i <=4; i++){
+    document.write(fruits[i] + "<br>");
 }
