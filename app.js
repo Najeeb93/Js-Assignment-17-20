@@ -26,3 +26,10 @@
 // for(i=1; i<=10;  i++) {
 //     document.write(userInput+" x "+i+" ="+(userInput*i)+"<br>");
 // }
+
+var userInput = prompt("Enter a number to show its multiplication table"); 
+var userLength = prompt("Enter length multiplication table");
+
+for(i=1; i <= userLength; i++){
+    document.write(userInput + " x " + i + " = " + userInput*i + "<br>");
+}
