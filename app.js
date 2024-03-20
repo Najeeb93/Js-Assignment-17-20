@@ -64,8 +64,14 @@
 // }
 
 
-//--Even--
+//--Even:--
 
-for(i = 0; i < 50; i=i+2 ){
-    document.write(i + "<br>")
+// for(i = 0; i < 50; i=i+2 ){
+//     document.write(i + "<br>")
+// }
+
+//--Series:--
+
+for(i = 0; i <= 20; i=i+2){
+    document.write(i +"k"+"<br>")
 }
