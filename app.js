@@ -90,6 +90,7 @@ for(var i = 0; i<myBakry.length; i++){
     if(userInput == myBakry[i]){
         match = true
         alert("Yes Available")
+        break
     }
     
 }
