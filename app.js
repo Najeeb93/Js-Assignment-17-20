@@ -76,6 +76,23 @@
 //     document.write(i +"k"+"<br>")
 // }
 
-for (var i = 1; i <= 100; i = i + 20){
-    document.write(i + "<br>")
+// for (var i = 1; i <= 100; i = i + 20){
+//     document.write(i + "<br>")
+// }
+
+//--Question No: 6
+
+var myBakry = ["cake","apple pie","cookie","chips","patties"];
+var userInput = prompt("Welcome to MyBakry.What do you want to order Sir/Ma'am?");
+var match = false;
+
+for(var i = 0; i<myBakry.length; i++){
+    if(userInput == myBakry[i]){
+        match = true
+        alert("Yes Available")
+    }
+    
+}
+if(match == false){
+    alert("No available in our menu")
 }
