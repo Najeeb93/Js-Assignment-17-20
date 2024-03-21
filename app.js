@@ -111,11 +111,17 @@
 
 //Question No: 8
 
-var A = [24,53,78,91,12];
-var largestNumber =A[0];
-for(var i = 1; i < A.length; i++){
-    if(A[i] > largestNumber){
-        largestNumber = A[i]
-    }
+// var A = [24,53,78,91,12];
+// var largestNumber =A[0];
+// for(var i = 1; i < A.length; i++){
+//     if(A[i] > largestNumber){
+//         largestNumber = A[i]
+//     }
+// }
+// document.write("The largest number in the array is: " + largestNumber);
+
+//--Question No: 9
+
+for(var i = 0; i <= 100; i=i+5){
+    document.write(i + "<br>")
 }
-document.write("The largest number in the array is: " + largestNumber);
