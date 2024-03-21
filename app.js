@@ -122,6 +122,17 @@
 
 //--Question No: 9
 
-for(var i = 0; i <= 100; i=i+5){
-    document.write(i + "<br>")
+// for(var i = 0; i <= 100; i=i+5){
+//     document.write(i + "<br>")
+// }
+
+
+///----------------------------////
+
+
+for(var i = 5; i > 1; i--){
+    for(var j = 5; j>i; j--){
+        document.write(j, " ")
+    }
+    document.write('<br>')
 }
