@@ -82,18 +82,29 @@
 
 //--Question No: 6
 
-var myBakry = ["cake","apple pie","cookie","chips","patties"];
-var userInput = prompt("Welcome to MyBakry.What do you want to order Sir/Ma'am?");
-var match = false;
+// var myBakry = ["cake","apple pie","cookie","chips","patties"];
+// var userInput = prompt("Welcome to MyBakry.What do you want to order Sir/Ma'am?");
+// var match = false;
 
-for(var i = 0; i<myBakry.length; i++){
-    if(userInput == myBakry[i]){
-        match = true
-        alert("Yes Available")
-        break
-    }
+// for(var i = 0; i<myBakry.length; i++){
+//     if(userInput == myBakry[i]){
+//         match = true
+//         alert("Yes Available")
+//         break
+//     }
     
+// }
+// if(match == false){
+//     alert("No available in our menu")
+// }
+
+
+
+var A = [24,53,78,91,12];
+var smallestNumber = A[0];
+for(var i = 1; i < A.length; i++){
+    if(A[i] < smallestNumber){
+        smallestNumber = A[i];
+    }
 }
-if(match == false){
-    alert("No available in our menu")
-}
+document.write("The smallest number in the array is:" + smallestNumber);
