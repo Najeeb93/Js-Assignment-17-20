@@ -98,13 +98,24 @@
 //     alert("No available in our menu")
 // }
 
+// Question No: 7
 
+// var A = [24,53,78,91,12];
+// var smallestNumber = A[0];
+// for(var i = 1; i < A.length; i++){
+//     if(A[i] < smallestNumber){
+//         smallestNumber = A[i];
+//     }
+// }
+// document.write("The smallest number in the array is:" + smallestNumber);
+
+//Question No: 8
 
 var A = [24,53,78,91,12];
-var smallestNumber = A[0];
+var largestNumber =A[0];
 for(var i = 1; i < A.length; i++){
-    if(A[i] < smallestNumber){
-        smallestNumber = A[i];
+    if(A[i] > largestNumber){
+        largestNumber = A[i]
     }
 }
-document.write("The smallest number in the array is:" + smallestNumber);
+document.write("The largest number in the array is: " + largestNumber);
