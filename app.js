@@ -136,3 +136,10 @@
 //     }
 //     document.write('<br>')
 // }
+
+for(var i = 1; i <= 10; i++){
+    console.log('outer Loop ===> ', i);
+    for(var j = 1; j <= 5; j++){
+        console.log('inner  Loop ==> ', j);
+    }
+}
