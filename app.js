@@ -137,9 +137,16 @@
 //     document.write('<br>')
 // }
 
-for(var i = 1; i <= 10; i++){
-    console.log('outer Loop ===> ', i);
-    for(var j = 1; j <= 5; j++){
-        console.log('inner  Loop ==> ', j);
+// for(var i = 1; i <= 10; i++){
+//     console.log('outer Loop ===> ', i);
+//     for(var j = 1; j <= 5; j++){
+//         console.log('inner  Loop ==> ', j);
+//     }
+// }
+
+for(var i = 1; i <= 100; i++){
+    console.log(i);
+    for(var j = 1; j <= 10; j++){
+        console.log(`${i} * ${j} = ${i*j}`);
     }
 }
