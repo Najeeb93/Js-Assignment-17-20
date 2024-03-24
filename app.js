@@ -150,3 +150,10 @@
 //         console.log(`${i} * ${j} = ${i*j}`);
 //     }
 // }
+
+for(var i = 1; i <= 3; i++){
+    console.log('outer loop ==>', i)
+        for(var j = 1; j <= 2; j++){
+            console.log('inner loop ==> ', j)
+        }
+    }
