@@ -166,9 +166,9 @@
 //     }
 // }
 
-for( var i = 1; i <= 4; i++){
-    console.log('outer loop  ==>', i)
-    for(var j = 1; j <= i; j++){
-        console.log('inner loop ==> ', j)
-    }
-}
+// for( var i = 1; i <= 4; i++){
+//     console.log('outer loop  ==>', i)
+//     for(var j = 1; j <= i; j++){
+//         console.log('inner loop ==> ', j)
+//     }
+// }
