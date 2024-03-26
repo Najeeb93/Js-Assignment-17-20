@@ -230,7 +230,7 @@ var userInput = prompt("Enter the palindrome word");*/
 
 for(var i = 1; i <= 100; i=i+10){
     for(var j=1; j<i; j++){
-        document.write(j + " ")
+        document.write(j +  " ")
     }
     document.write("<br>")
 }
