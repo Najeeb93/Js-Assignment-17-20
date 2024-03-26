@@ -228,9 +228,24 @@ var userInput = prompt("Enter the palindrome word");*/
 //     document.write("<br>")
 // }
 
-for(var i = 1; i <= 100; i=i+10){
-    for(var j=1; j<i; j++){
-        document.write(j +  " ")
+// for(var i = 1; i <= 100; i=i+10){
+//     for(var j=1; j<i; j++){
+//         document.write(j +  " ")
+//     }
+//     document.write("<br>")
+// }
+
+// for(var i = 0; i < 5; i++){
+//     for(var j = 0; j < 3; j++){
+//         document.write( );
+//     }
+// }
+
+var firstName = ["Ghous","Basit","Fahad"]
+var  lastName = ["Ahmed","Khan"]
+
+for(var i = 0; i < firstName.length; i++){
+    for(var x = 0; x < lastName.length; x++){
+        document.write(firstName[i] + " " + lastName[x])
     }
-    document.write("<br>")
 }
