@@ -218,4 +218,13 @@ palidrome words --> civic,madam,,121.
  
 /*write a program to calculate factorial by using prompt i.e (5) 5*4*3*2*1
 
-var userInput = prompt("Enter the palindrome word");
+var userInput = prompt("Enter the palindrome word");*/
+
+
+for(var i = 1; i <= 5; i++){
+    for(var j = 1; j<=i; j++) {
+        document.write("ineer",j)
+    }
+    document.write("<br>")
+}
+
