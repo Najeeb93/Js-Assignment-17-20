@@ -221,10 +221,16 @@ palidrome words --> civic,madam,,121.
 var userInput = prompt("Enter the palindrome word");*/
 
 
-for(var i = 1; i <= 5; i++){
-    for(var j = 1; j<=i; j++) {
-        document.write("ineer",j)
+// for(var i = 1; i <= 5; i++){
+//     for(var j = 1; j<=i; j++) {
+//         document.write("ineer",j)
+//     }
+//     document.write("<br>")
+// }
+
+for(var i = 1; i <= 100; i=i+10){
+    for(var j=1; j<i; j++){
+        document.write(j + " ")
     }
     document.write("<br>")
 }
-
