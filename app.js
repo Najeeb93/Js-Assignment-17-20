@@ -4,6 +4,13 @@
 
 //--Question No: 1
 
+
+var matrix = [[1,2,3],[4,5,6],[7,8,9]];
+
+for(var i =0; i < matrix.length; i++){
+    document.write(matrix[i] + "<br>");
+}
+
 // for(i=0; i<=5; i++){
 //     document.write("Hello world" + "<br>")
 // }
@@ -241,11 +248,11 @@ var userInput = prompt("Enter the palindrome word");*/
 //     }
 // }
 
-var firstName = ["Ghous","Basit","Fahad"]
-var  lastName = ["Ahmed","Khan"]
+// var firstName = ["Ghous","Basit","Fahad"]
+// var  lastName = ["Ahmed","Khan"]
 
-for(var i = 0; i < firstName.length; i++){
-    for(var x = 0; x < lastName.length; x++){
-        document.write(firstName[i] + " " + lastName[x])
-    }
-}
+// for(var i = 0; i < firstName.length; i++){
+//     for(var x = 0; x < lastName.length; x++){
+//         document.write(firstName[i] + " " + lastName[x])
+//     }
+// }
