@@ -257,3 +257,9 @@ var userInput = prompt("Enter the palindrome word");*/
 //         document.write(firstName[i] + " " + lastName[x])
 //     }
 // }
+
+
+for(var i = 0; i < 10; i++){
+    if(i === 3 )
+    document.write(i)
+}
