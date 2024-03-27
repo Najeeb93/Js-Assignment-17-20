@@ -5,11 +5,11 @@
 //--Question No: 1
 
 
-var matrix = [[1,2,3],[4,5,6],[7,8,9]];
+// var matrix = [[1,2,3],[4,5,6],[7,8,9]];
 
-for(var i =0; i < matrix.length; i++){
-    document.write(matrix[i] + "<br>");
-}
+// for(var i =0; i < matrix.length; i++){
+//     document.write(matrix[i] + "<br>");
+// }
 
 // for(i=0; i<=5; i++){
 //     document.write("Hello world" + "<br>")
@@ -130,8 +130,9 @@ for(var i =0; i < matrix.length; i++){
 //--Question No: 9
 
 // for(var i = 0; i <= 100; i=i+5){
-//     document.write(i + "<br>")
+//     document.write(i + " ")
 // }
+
 
 
 ///----------------------------////
