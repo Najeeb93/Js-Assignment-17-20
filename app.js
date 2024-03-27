@@ -264,7 +264,8 @@ var userInput = prompt("Enter the palindrome word");*/
 //     document.write(i)
 // }
 
-for(var i = 0; i < 10; i++){
-    if(i === 3 ){continue}
-    document.write(i)
-}
+// for(var i = 0; i < 10; i++){
+//     if(i === 3 ){continue}
+//     document.write(i)
+// }
+
