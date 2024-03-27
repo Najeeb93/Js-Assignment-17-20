@@ -269,3 +269,16 @@ var userInput = prompt("Enter the palindrome word");*/
 //     document.write(i)
 // }
 
+/* lets Pratice 
+Qs.Create an array to store companies->"Bloomberg","Microsoft","Uber","Google","IBM","Netflix"
+
+a. Remove the first company from the array
+b. Remove uber & Add Ola in its place
+c. Add Amazon at the end*/
+
+var companies = ["Bloomberg","Microsoft","Uber","Google", "IBM","Netflix"];
+// companies.shift();
+// companies.splice(2,1,"Ola")
+companies.push("Amazon");
+
+document.write(companies)
