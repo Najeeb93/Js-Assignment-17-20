@@ -5,18 +5,18 @@
 //--Question No: 1
 
 
-var arr = [[1,2,3],[4,5,6],[7,8,9]];
-
-for(var i =0; i < arr.length; i++){
-    document.write(arr[i].join(" ") + "<br>");
-}
-
 // for(i=0; i<=5; i++){
-//     document.write("Hello world" + "<br>")
-// }
-
-
-//--Question No: 2
+    //     document.write("Hello world" + "<br>")
+    // }
+    
+    
+    //--Question No: 2
+    
+    // var arr = [[1,2,3],[4,5,6],[7,8,9]];
+    
+    // for(var i =0; i < arr.length; i++){
+    //     document.write(arr[i].join(" ") + "<br>");
+    // }
 
 // for(i=1; i<=10; i++){
 
