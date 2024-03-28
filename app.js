@@ -223,7 +223,19 @@
 /* Write a program to check whether the word is palidrome or not.
 palidrome words --> civic,madam,,121.
 */
+
+var userInput = prompt("Enter your word");
+var check = "";
+for(var i = userInput.length-1; i >= 0; i--){
+    check +=  userInput[i];
+}
  
+if(userInput ===  check){
+    alert(userInput + " its a plindrome word")
+}
+else{
+    alert("try again")
+}
 /*write a program to calculate factorial by using prompt i.e (5) 5*4*3*2*1
 
 var userInput = prompt("Enter the palindrome word");*/
